@@ -7,3 +7,5 @@ scikit_learn==1.6.1
 seaborn==0.13.2
 torch==2.5.1
 transformers==4.31.0
+wandb==0.19.11
+openpyxl==3.1.5
