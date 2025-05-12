@@ -1,0 +1,8 @@
+Important note: In ex1.py, when a model is trained, it saves the model in a subfolder named after the model's configuration. This subfolder contains an Excel file with the predictions on the validation set.
+Due to size constraints, I only uploaded these subfolders with their corresponding Excel files, without the full model saves, as they were too large for Git.
+
+Additionally, when running tests in ex1.py, a test_res.txt file is created, similar to res.txt but containing accuracies on the test set instead of the validation set.
+
+Most importantly, I used a separate Python file, compare_best_worst_models.py, to generate a dataset with the predictions of the best and worst configurations, 
+a second dataset containing only the instances where the best configuration was correct and the worst was wrong, and confusion matrix plots. These were all created using the validation predictions Excel files from the configuration subfolders I uploaded. 
+The outputs from compare_best_worst_models.py are located in the validation_best_worst_models_predictions_comparisons_outputs subfolder.
